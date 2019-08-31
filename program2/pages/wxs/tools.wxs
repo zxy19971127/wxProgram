@@ -1,0 +1,46 @@
+var other=require("other.wxs")
+var getWeekDay=function(day){
+  var weekday=other.weekday;
+  if(1<=day&&day<=7){
+    return weekday[day-1];
+  }else{
+    return "错误的日期";
+  }
+}
+
+var timeFormat=function(time){
+  var date=getDate(time);
+  
+  var date_seconds=date.getTime()/1000;
+  //console.log(date_seconds);
+  var now=getDate();
+  var now_seconds=now.getTime()/1000;
+  var different=now_seconds-date_seconds;
+  var timeStr="";
+  if(different<60){
+    timeStr="刚刚";
+  }else if(60<=different&&different<3600){
+    var min=parseInt(different/60);
+    timeStr=min+"分钟前";
+  } else if (3600 <= different && different < 3600*24){
+    var hour = parseInt(different /3600);
+    timeStr=hour+"小时前";
+  } else if (3600 * 24 <= different && different < 3600 * 24*30){
+    var day = parseInt(different / 3600/24);
+    timeStr=day+"天前";
+  }else{
+    var year=date.getFullYear();
+    var month=date.getMonth();
+    var day=date.getDate();
+    var hour=date.getHours();
+    var min=date.getMinutes();
+    timeStr=year+"/"+month+"/"+day+" "+hour+":"+min;
+  }
+
+  return timeStr;
+}
+
+module.exports={
+  timeFormat: timeFormat,
+  getWeekDay: getWeekDay
+}

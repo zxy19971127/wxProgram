@@ -1,0 +1,14 @@
+<view class="outter">
+  <view wx:if="{{showInner}}" class="inner" style="width:{{innerSize}}px;height:{{innerSize}}px;" >
+    <view class="before_group" bindtap="tapInner" data-index="0">
+      <slot name="before"></slot>
+    </view>
+    
+    {{innerText}}
+    
+    <view class="after_group" bindtap="tapInner" data-index="1">
+      <slot name="after"></slot>
+    </view>
+  </view>
+  
+</view>

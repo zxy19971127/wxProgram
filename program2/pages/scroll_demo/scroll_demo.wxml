@@ -1,0 +1,8 @@
+<!--pages/scroll_demo/scroll_demo.wxml-->
+<scroll-view class="scroll" scroll-y scroll-into-view="blue" bindscrolltoupper="scrollUp" upper-threshold="20" bindscroll="scrollEvent">
+  <view class="scroll_item bg_red"></view>
+  <view id="blue" class="scroll_item bg_blue"></view>
+  <view class="scroll_item bg_green"></view>
+  <view class="scroll_item bg_pink"></view>
+  <view class="scroll_item bg_yellow"></view>
+</scroll-view>

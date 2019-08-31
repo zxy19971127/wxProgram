@@ -1,0 +1,7 @@
+<view>hello world</view>
+<button bindtap="goToNextPage">跳转</button>
+
+<wxs src="./../wxs/tools.wxs" module="tools"></wxs>
+
+<view>{{time}}</view>
+<view>{{tools.timeFormat(time)}}</view>

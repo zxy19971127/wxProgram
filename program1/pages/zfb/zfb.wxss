@@ -1,0 +1,88 @@
+/* pages/zfb/zfb.wxss */
+.blue_group{
+  background: #1e82d2;
+  padding: 20rpx;
+}
+
+.blue_group .blue_top{
+  height: 58rpx;
+  width: 100%;
+  display: flex;
+}
+
+.blue_top .search_group{
+  flex: 1;
+  display: flex;
+}
+
+.blue_top .search_group .search_input{
+  flex: 1;
+  background: #1a71b7;
+  border-radius: 4px;
+  padding: 0 15rpx;
+  font-size: 24rpx;
+}
+
+.blue_top .search_group .placehoder_input{
+  color: white;
+}
+
+.blue_group .blue_top .more_group{
+  width: 180rpx;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.top_image{
+  height: 45rpx;
+  width: 50rpx;
+}
+
+.blue_group .main_group{
+  margin-top: 30rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  justify-content: space-around;
+}
+
+.blue_group .main_group .main_menu{
+  width: 100rpx;
+  height: 120rpx;
+  font-size: 32rpx;
+  text-align: center;
+  color: white;
+
+}
+
+.blue_group .main_group .main_menu .main_image{
+  width: 70rpx;
+  height: 70rpx;
+}
+
+.white_group{
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-top: 20rpx;
+  
+}
+
+.white_group .menu_group{
+  width: 180rpx;
+  height: 100rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 40rpx;
+}
+
+.white_group .menu_group image{
+  width: 54rpx;
+  height: 50rpx;
+}
+
+.white_group .menu_group text{
+  font-size: 30rpx;
+}

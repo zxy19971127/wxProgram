@@ -1,0 +1,16 @@
+/* pages/segements/segements.wxss */
+.segment_page{
+  height: 800rpx;
+}
+
+.newest{
+  background: palegreen;
+}
+
+.focus{
+  background: violet;
+}
+
+.local{
+  background: khaki;
+}

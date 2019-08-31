@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "searchbar":"/components/searchbar/searchbar",
+    "rateStar":"/components/rateStar/rateStar",
+    "showType":"/components/showType/showType"
+  }
+}

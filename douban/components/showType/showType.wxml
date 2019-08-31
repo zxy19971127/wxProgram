@@ -1,0 +1,11 @@
+<view class="modelGroup">
+  <view class="modelTop">
+    <view class="modelTitle">{{type}}</view>
+    <navigator class="modelMore" url="{{navTo}}">更多</navigator>
+  </view>
+  <scroll-view class="modelScroll" scroll-x>
+    <block wx:for="{{loopContent}}" wx:key="id">
+      <itemView item="{{item}}"></itemView>
+    </block>
+  </scroll-view>
+</view>

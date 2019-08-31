@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/zfb/zfb",
+    "pages/nav/nav",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/couse/course",
+    "pages/qq/qq"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#1e82d2",
+    "navigationBarTitleText": "支付宝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#70dbdb",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icon/table.png",
+        "selectedIconPath": "icon/table_s.png"
+      },
+      {
+        "pagePath": "pages/couse/course",
+        "text": "微信",
+        "iconPath": "icon/course.png",
+        "selectedIconPath": "icon/course_s.png"
+      },
+      {
+        "pagePath": "pages/qq/qq",
+        "text": "QQ",
+        "iconPath": "icon/qq.png",
+        "selectedIconPath": "icon/qq_s.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "icon/table.png",
+        "selectedIconPath": "icon/table_s.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "debug": true
+}

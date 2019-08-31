@@ -1,0 +1,7 @@
+<!--pages/qq/qq.wxml-->
+<import src="../templates/message/message.wxml" />
+<import src="../templates/message/message.wxss" />
+
+<view wx:for="{{msgs}}">
+  <template is="msgItem" data="{{...item}}"/>
+</view>

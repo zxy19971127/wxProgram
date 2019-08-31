@@ -1,0 +1,16 @@
+<!--pages/swiper/swiper.wxml-->
+<swiper class="swiper" autoplay indicator-dots indicator-active-color="blue" style="width:{{width*2}}rpx;height:{{height*2}}rpx" current-item-id="come" interval="2000" duration="1000" circular vertical >
+  <swiper-item>
+    <image src="/icon/1.jpg"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="/icon/4.jpg"></image>
+  </swiper-item>
+  <swiper-item item-id="come">
+    <image src="/icon/3.jpg"></image>
+  </swiper-item>
+</swiper>
+
+<movable-area class="mva">
+  <movable-view class="mvv" direction="all" inertia out-of-bounds x="50" y="20" bindvtouchmove="onHtouch"></movable-view>
+</movable-area>

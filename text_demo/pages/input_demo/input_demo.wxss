@@ -1,0 +1,11 @@
+/* pages/input_demo/input_demo.wxss */
+.ipt{
+  border: 1px solid #666;
+  padding: 10px;
+  
+}
+
+.ipt_group{
+  padding: 16rpx;
+  box-sizing: border-box;
+}

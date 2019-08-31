@@ -1,0 +1,5 @@
+<view class="article_group" wx:for="{{articles}}" wx:key="id" bindtap="onClickArticle" data-id="{{item.id}}">{{item.title}}</view>
+
+<view class="outterView" bindtap="onOutterClick">
+  <view class="innerView" catchtap="onInnerClick"></view>
+</view>

@@ -1,0 +1,25 @@
+.input_group{
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10rpx;
+  box-sizing: border-box;
+  background: #ccc;
+  font-size: 40rpx;
+}
+
+.input_group input{
+  flex: 1;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+  font-size: 40rpx;
+  background: #fff;
+  border-radius: 10rpx;
+}
+
+.input_group .btn{
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}

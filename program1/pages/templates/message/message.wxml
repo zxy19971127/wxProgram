@@ -1,0 +1,6 @@
+<template name="msgItem">
+  <view class="message_group">
+    <text class="content">{{content}}</text>  
+    <text class="friend"> {{from_who}}</text>
+  </view>
+</template>

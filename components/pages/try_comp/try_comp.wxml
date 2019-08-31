@@ -1,0 +1,5 @@
+<mybox showInner="true" innerText="组件" innerSize="180" bindcustomEvent="onCustom">
+  <view slot="before">这是在页面添加的before</view>
+  <view slot="after">这是在页面添加的after</view>
+</mybox>
+<button bindtap="go">点击跳转</button>

@@ -1,0 +1,6 @@
+<view class="rateGroup">
+  <image style="width:{{starSize}}rpx;height:{{starSize}}rpx" src="/icon/评分星星-2分.png" wx:for="{{star_2_array}}" wx:key="*this"></image>
+  <image style="width:{{starSize}}rpx;height:{{starSize}}rpx" src="/icon/评分星星-1分.png" wx:for="{{star_1_array}}" wx:key="*this"></image>
+  <image style="width:{{starSize}}rpx;height:{{starSize}}rpx" src="/icon/评分星星-0分.png" wx:for="{{star_0_array}}" wx:key="*this"></image>
+  <text style="font-size:{{fontSize}}rpx;color:{{fontColor}}">{{ratetext}}</text>
+</view>

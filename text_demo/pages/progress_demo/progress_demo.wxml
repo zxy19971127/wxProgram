@@ -1,0 +1,3 @@
+<progress class="pgs" percent="{{percent}}" show-info stroke-width="20" border-radius="10" activeColor="red" backgroundColor="#a1a1a1" active active-mode="backwards"></progress>
+
+<button bindtap="addP" size="default" type="default" plain disabled loading>按一下</button>

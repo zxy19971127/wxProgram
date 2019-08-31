@@ -1,0 +1,15 @@
+.message_group{
+  height: 40px;
+  border-bottom: 1px solid gray;
+  line-height: 40px;
+  padding: 10px;
+}
+.message_group .content{
+  float: left;
+  font-size: 20px;
+}
+.message_group .friend{
+  float: right;
+  font-size: 16px;
+  color: darkred; 
+}

@@ -1,0 +1,26 @@
+<!--pages/detail/detail.wxml-->
+<view class="header">
+  <view class="itemTitle">海王</view>
+  <view class="itemDetail">
+    <view class="itemContent">
+      <view class="itemRate">
+        <rateStar course="8" starSize="28" fontSize="28"></rateStar>
+        <text class="commentPerson">2016655人评价</text>
+      </view>
+      <view class="itemSubDetail">
+        <view class="itemType">
+          143分钟 动作/奇幻/冒险
+        </view>
+        <view class="itemShow">
+          2018-12-04(中国大陆)
+        </view>
+        <view class="itemStaff">
+          温子仁
+        </view>
+      </view>
+    </view>
+    <view class="itemPic">
+      <image src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2566158271.webp"></image>
+    </view>
+  </view>
+</view>

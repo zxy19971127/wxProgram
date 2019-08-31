@@ -1,0 +1,6 @@
+<form bindsubmit="checkboxSubmit">
+  <checkbox-group name="languages">
+    <checkbox wx:for="{{languages}}" value="{{item.id}}">{{item.name}}</checkbox>
+  </checkbox-group>
+  <button form-type="submit">提交</button>
+</form>

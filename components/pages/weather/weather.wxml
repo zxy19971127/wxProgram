@@ -1,0 +1,2 @@
+<!--pages/weather/weather.wxml-->
+<button bindtap="seeWeather">查看天气</button>

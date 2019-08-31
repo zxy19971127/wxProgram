@@ -1,0 +1,10 @@
+<form bindsubmit="subToLogin">
+  <view class="input_group">
+    用户名：<input name="username" placeholder="请输入用户名"></input>
+  </view>
+  <view class="input_group">
+    密码：<input name="password" password placeholder="请输入密码"></input>
+  </view>
+  <button form-type="submit" class="btn" type="primary">登陆</button>
+  <button form-type="reset">清除</button>
+</form>

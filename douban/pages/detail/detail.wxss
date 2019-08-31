@@ -1,0 +1,64 @@
+/* pages/detail/detail.wxss */
+.header{
+  padding: 60rpx 30rpx;
+}
+
+.header .itemTitle{
+  font-size: 50rpx; 
+}
+
+.header .itemDetail{
+  display: flex;
+  justify-content: space-between;
+  margin-top:20rpx; 
+}
+
+.header .itemDetail .itemContent{
+  flex: 1;
+  margin-right: 20rpx; 
+}
+
+.itemContent .itemRate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.itemRate .commentPerson{
+  font-size: 28rpx;
+  color: #8a8a8a;
+  margin-left: 20rpx;
+}
+
+
+.itemContent .itemSubDetail{
+  margin-top: 40rpx;
+  font-size: 32rpx;
+}
+
+.itemContent .itemSubDetail view{
+  margin-bottom: 10rpx;
+}
+
+.itemSubDetail .itemType{
+
+}
+
+.itemSubDetail .itemShow{
+
+}
+
+.itemSubDetail .itemStaff{
+
+}
+
+.itemDetail .itemPic{
+  width: 200rpx;
+  height: 300rpx;
+}
+
+.itemPic image{
+  width: 100%;
+  height: 100%;
+}
+

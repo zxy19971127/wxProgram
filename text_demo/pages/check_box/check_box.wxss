@@ -1,0 +1,19 @@
+/* pages/check_box/check_box.wxss */
+checkbox{
+  font-size: 15px;
+}
+
+checkbox .wx-checkbox-input{
+  border-radius:50%;
+}
+
+checkbox .wx-checkbox-input-checked{
+  background: green;
+  color:#fff;
+  border-color: green;
+}
+
+checkbox .wx-checkbox-input-checked::before{
+  color: #fff;
+}
+

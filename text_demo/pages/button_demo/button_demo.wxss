@@ -1,0 +1,16 @@
+.loadingbtn{
+  font-size: 14px;
+  color:#ccc;
+}
+
+.loadingbtn::after{
+  border: none;
+}
+
+.news{
+  padding: 20rpx;
+  width: 100%;
+  height: 150rpx;
+  box-sizing: border-box;
+  border: solid 1px #ccc;
+}

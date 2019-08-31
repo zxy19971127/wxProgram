@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "rateStar": "/components/rateStar/rateStar",
+    "itemView":"/components/itemView/itemView"
+  }
+}

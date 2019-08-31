@@ -1,0 +1,3 @@
+<view class="outter" hover-class="outter_hover">
+ <view class="inner" hover-class="inner_hover" ></view>
+</view>

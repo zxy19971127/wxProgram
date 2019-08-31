@@ -1,0 +1,11 @@
+<!--pages/movable/movable.wxml-->
+<view class="list_view">
+  <view class="box">
+    <movable-area class="mva">
+      <movable-view class="mvv" direction="horizontal" style="width:{{width}}px" bindtouchstart="onTouchS" bindtouchend="onTouchE" bindchange="onChange" x="{{x}}">张皮皮</movable-view>
+    </movable-area>
+    <button>删除</button>
+  </view>
+</view>
+
+

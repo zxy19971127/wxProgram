@@ -1,0 +1,7 @@
+<view class="top_group">
+  <view class="input_group">
+    <icon type="search" color="#ccc" size="20" class="sicon"></icon>
+    <input class="ipt" placeholder="请输入搜索内容" placeholder-class="plc" value="{{value}}" ></input>
+    <icon type="clear" color="#ccc" size="20" class="cicon" bindtap="cancel_input"></icon>
+  </view>
+</view>

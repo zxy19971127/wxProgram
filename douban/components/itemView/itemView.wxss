@@ -1,0 +1,39 @@
+/* components/itemView/itemView.wxss */
+.itemNavigator{
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+  
+
+/* .itemNavigator:last-of-type{
+  margin-right: 0;
+}*/
+
+.itemNavigator .itemGroup{
+  width: 100%;
+}
+
+.itemNavigator .itemGroup .imgGroup{
+  width: 100%;
+  height: 284rpx;
+}
+
+.imgGroup .img{
+  width: 100%;
+  height: 100%
+}
+
+.itemGroup .itemTitle{
+ font-size: 28rpx;
+ text-align: center;
+ margin-top: 10rpx;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ margin-bottom: 14rpx;
+}
+
+.placeholder{
+  width: 200rpx;
+  height: 284rpx;
+}

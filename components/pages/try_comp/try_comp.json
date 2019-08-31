@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "mybox":"/components/mybox/mybox"
+  }
+}

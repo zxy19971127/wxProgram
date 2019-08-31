@@ -1,0 +1,8 @@
+<!--logs.wxml-->
+<view class="searchbar">
+  <view class="searchInputGroup" wx:if="{{searchNeeded}}">
+    <input class="searchInput" placeholder="搜索"></input>
+  </view>
+  <navigator wx:else url="/pages/search/search" class="searchnavigator"></navigator>
+  
+</view>

@@ -1,0 +1,13 @@
+<view class="segment_group">
+  <view class="segment_header">
+    <block wx:for="{{items}}" wx:key="*this">
+      <view class="segment_item active" wx:if="{{defalutIndex==index}}" bindtap="tapItem" data-id="{{index}}">{{item}}</view>
+      <view class="segment_item" wx:else bindtap="tapItem" data-id="{{index}}">{{item}}</view>
+    </block>
+  </view>
+  <view class="segment_page">
+  ` <block wx:for="{{items}}">
+      <slot name="{{index}}" wx:if="{{cIndex==index}}"></slot>
+    </block>
+  </view>
+</view>

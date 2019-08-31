@@ -1,0 +1,4 @@
+<searchbar searchNeeded="{{searchNeeded}}"></searchbar>
+<showType type="电影" loopContent="{{movies}}" navTo="/pages/list/list?type=movie"></showType>
+<showType type="电视剧" loopContent="{{tvs}}" navTo="/pages/list/list?type=tv"></showType>
+<showType type="综艺" loopContent="{{shows}}" navTo="/pages/list/list?type=show"></showType>

@@ -1,0 +1,1 @@
+<rich-text class="article" nodes="{{nodes}}" bindtap="tap"></rich-text>

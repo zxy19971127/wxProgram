@@ -1,0 +1,5 @@
+<segment items="{{items}}" defalutIndex="{{Sindex}}" bindtapEvent="eventOnTap">
+  <view class="segment_page newest"  slot="0">最新页面</view>
+  <view class="segment_page focus"  slot="1">关注页面</view>
+  <view class="segment_page local"  slot="2">同城页面</view>
+</segment>

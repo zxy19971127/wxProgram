@@ -1,0 +1,66 @@
+/* pages/nav/nav.wxss */
+.newsGroup{
+  height: 100px;
+  width: 100%;
+  border-bottom: 1px solid #999;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.newsGroup .infoGroup{
+  float: left;
+  width: 207px;
+}
+
+.infoGroup .title{
+  font-size: 20px;
+}
+
+.infoGroup .other{
+  font-size: 14px;
+  color:rgb(5, 98, 160)
+}
+
+.other .author{
+  float: left;
+}
+
+.other .time{
+  float: right;
+}
+
+.newsGroup .imgGroup{
+  float: right;
+  height: 70px;
+  width: 90px;
+}
+
+.imgGroup .img{
+  height: 100%;
+  width: 100%;
+}
+
+.outter{
+  display: flex;
+  width: 400rpx;
+  height: 400rpx;
+  background: #4e5d;
+  /*justify-content: space-between;
+  align-items: center;
+  flex-direction: column*/
+  flex-wrap: wrap;
+  align-content: center
+}
+
+.outter .inner{
+  width: 80rpx;
+  height: 80rpx;
+  background: #ee4db8;
+  border: 1px solid sandybrown;
+  box-sizing: border-box;
+  
+}
+
+.outter .inner1{
+  flex: 20%;
+}

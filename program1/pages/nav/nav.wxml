@@ -1,0 +1,19 @@
+<!--pages/nav/nav.wxml-->
+<view class="newsGroup">
+  <view class="infoGroup">
+    <text class="title">常用十六进制颜色对照表代码查询</text>
+    <view class="other">
+      <text class="author">饭桌桌</text>
+      <text class="time">2018/07/05</text>
+    </view>
+  </view>
+  <view class="imgGroup">
+    <image class="img" src="https://yusi123.com/wp-content/uploads/2014/01/color.jpg"></image>
+  </view>
+</view>
+
+<view class="outter">
+  <view class="inner inner1">1</view>
+  <view class="inner inner2">2</view>
+  
+</view>

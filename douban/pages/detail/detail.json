@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "rateStar": "/components/rateStar/rateStar"
+  }
+}

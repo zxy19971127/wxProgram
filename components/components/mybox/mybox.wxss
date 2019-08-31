@@ -1,0 +1,25 @@
+/* components/mybox/mybox.wxss */
+.outter{
+  width: 400rpx;
+  height: 400rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue
+}
+
+.outter .inner{
+  display: flex;
+  text-align: center;
+  background: greenyellow;
+}
+
+.before_group{
+  flex: 1;
+  background: pink;
+}
+
+.after_group{
+  flex:1;
+  background: yellow;
+}

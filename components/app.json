@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/jokes/jokes",
+    "pages/weather/weather",
+    "pages/segements/segements",
+    "pages/try_comp/try_comp",
+    "pages/index/index",
+    "pages/logs/logs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

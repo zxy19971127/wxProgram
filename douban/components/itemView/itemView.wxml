@@ -1,0 +1,10 @@
+<navigator class="itemNavigator" wx:if="{{item}}">
+  <view class="itemGroup">
+    <view class="imgGroup">
+      <image src="{{item.cover.url}}" class="img"></image>
+    </view>
+    <view class="itemTitle">{{item.title}}</view>
+    <rateStar course="{{item.rating.value}}"></rateStar>
+  </view>
+</navigator>
+<view wx:else class="placeholder"></view>

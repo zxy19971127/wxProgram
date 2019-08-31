@@ -1,0 +1,34 @@
+/* pages/scroll_demo/scroll_demo.wxss */
+.scroll{
+  width: 100%;
+  height:400rpx;
+  background: palevioletred;
+  /*white-space: nowrap;*/
+  margin-top:50rpx 
+}
+
+.scroll .scroll_item{
+  /*display: inline-block;*/
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.bg_red{
+  background: red;
+}
+
+.bg_blue{
+  background: blue;
+}
+
+.bg_green{
+  background: green;
+}
+
+.bg_pink{
+  background: pink;
+}
+
+.bg_yellow{
+  background: yellow;
+}

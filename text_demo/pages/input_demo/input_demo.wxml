@@ -1,0 +1,3 @@
+<view class="ipt_group">
+  <input class="ipt" placeholder="请输入内容" type="number"></input>
+</view>

@@ -1,0 +1,7 @@
+<view class="joke_group">
+  <block wx:for="{{showJoke}}" wx:key="hashId">
+    <view class="joke_item">{{item.content}}</view>
+  </block>
+  <button wx:if="{{hasMoreData}}" loading class="loadingbtn">正在加载....</button>
+<button wx:else class="loadingbtn">没有更多数据</button>
+</view>

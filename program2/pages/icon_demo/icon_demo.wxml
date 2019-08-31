@@ -1,0 +1,17 @@
+<view>
+<block wx:for="{{iconSize}}">
+  <icon type="success" size="{{item}}"></icon>
+</block>
+</view>
+
+<view>
+<block wx:for="{{iconColor}}">
+  <icon type="success" size="30" color="{{item}}"></icon>
+</block>
+</view>
+
+<view>
+<block wx:for="{{iconType}}">
+  <icon type="{{item}}" size="{{30}}"></icon>
+</block>
+</view>

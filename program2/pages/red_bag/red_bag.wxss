@@ -1,0 +1,49 @@
+/* pages/red_bag/red_bag.wxss */
+.scroll{
+  width: 100%;
+}
+
+.scroll .circle_outter{
+  width: 100%;
+  height: 300rpx;
+  background: #e4e4e4;
+  position: relative;
+}
+
+.scroll .circle_outter .circle_inner{
+  width: 100%;
+  height: 200rpx;
+  position:relative;
+  
+}
+
+.circle_inner .circle{
+  background: #dd4b39;
+  border-radius: 50%;
+  /*width: 452px;
+  height: 452px;*/
+  position: absolute;
+  bottom: 0px;
+}
+
+.user_group{
+  position: absolute;
+  font-size: 28rpx;
+  width: 200rpx;
+  left: 50%;
+  right: 50%;
+  margin-left: -100rpx;
+  bottom: 20rpx;
+  text-align: center;
+}
+
+.user_group image{
+  width:120rpx;
+  height: 100rpx;
+  border: 1px solid #e8be34;
+}
+
+.placeholder{
+  height: 530px;
+  width: 100%;
+}

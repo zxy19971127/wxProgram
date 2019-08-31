@@ -1,0 +1,22 @@
+.article_group{
+  height: 40px;
+  border-bottom: 1px solid gray;
+  line-height: 40px;
+  padding: 10px;
+  font-size: 20px;
+  color: darkcyan;
+}
+
+.outterView{
+  background: #CCFF33;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.innerView{
+  background: #99CCFF;
+  height: 100px;
+  width: 100px;
+  
+}

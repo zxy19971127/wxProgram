@@ -1,0 +1,38 @@
+.top_group{
+  width: 100%;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #00b51d;
+}
+
+.top_group .input_group{
+  height: 70rpx;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #fff;
+  padding: 10rpx;
+  box-sizing: border-box;
+  border-radius: 10rpx;
+}
+
+.input_group .sicon{
+  flex-basis: 40rpx;
+}
+
+.input_group .ipt{
+  flex: 1;
+  padding: 0 15rpx;
+  box-sizing: border-box;
+  font-size: 40rpx;
+}
+
+.input_group .cicon{
+  flex-basis: 40rpx;
+}
+
+.plc{
+  color: #ccc;
+  font-size: 40rpx;
+}

@@ -1,0 +1,22 @@
+/* pages/view_demo/view_demo.wxss */
+
+.outter{
+  height: 200rpx;
+  width: 200rpx;
+  background: red;
+
+}
+
+.outter_hover{
+  background: violet;
+}
+
+.outter .inner{
+  height: 100rpx;
+  width: 100rpx;
+  background: blue;
+}
+
+.outter .inner_hover{
+  background: greenyellow;
+}

@@ -1,0 +1,6 @@
+<searchbar searchNeeded="{{searchNeeded}}"></searchbar>
+<view class="itemGroup">
+  <block wx:for="{{items}}" wx:key="id">
+    <itemView item="{{item}}"></itemView>
+  </block>
+</view>

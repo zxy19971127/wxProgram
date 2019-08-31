@@ -1,0 +1,9 @@
+/* pages/success/success.wxss */
+.tips{
+  margin-top: 20rpx;
+}
+
+.finish{
+  width: 100%;
+  margin-top: 40rpx;
+}

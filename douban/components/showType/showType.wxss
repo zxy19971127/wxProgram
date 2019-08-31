@@ -1,0 +1,41 @@
+/* components/showType/showType.wxss */
+.modelGroup{
+  padding: 40rpx;
+  background: #fff;
+}
+
+.modelGroup .modelTop{
+  font-size: 36rpx;
+  display: flex;
+  justify-content: space-between;
+   
+}
+
+.modelGroup .modelTop .modelTitle{
+  color: #494949;
+}
+
+.modelGroup .modelTop .modelMore{
+  color:#41be57;
+}
+
+.modelGroup .modelScroll{
+  margin-top:40rpx;
+  width: 100%;
+  height: 400rpx;
+  white-space: nowrap;
+}
+
+.modelGroup .modelScroll .itemNavigator{
+  width: 200rpx;
+  margin-right: 20rpx;
+  display: inline-block;
+}
+
+.modelGroup .modelScroll .itemNavigator:last-of-type{
+  margin-right: 0;
+}
+
+
+
+
